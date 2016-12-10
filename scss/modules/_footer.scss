@@ -1,0 +1,44 @@
+@media screen and (min-width: 320px) {
+	.footer {
+		width: 100%;
+		min-height: 105px;
+		background: #3b434c;
+	}
+
+	.foot-wrapper {
+		width: 90%;
+		margin: 0 auto;
+		text-align: center;
+
+		span {
+			display: block;
+			margin-bottom: 10px;
+			color: #ffffff;
+		}
+		a {
+			color: $primary_font_color;
+			text-transform: uppercase;
+		}
+
+		img {
+			position: relative;
+			top: 2px;
+		}
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.foot-wrapper {
+		width: 80%;
+		margin: 0 auto;
+		overflow: hidden;
+
+		span {
+			float: left;
+		}
+
+		a {
+			float: right;
+		}
+	}
+}
